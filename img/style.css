@@ -83,7 +83,7 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height:400px;
-    background:url('../img/check.jpg') no-repeat 0 -400px;
+    background:url('../images/showcase.jpg') no-repeat 0 -400px;
     text-align:center;
     color:red;
 }
@@ -96,14 +96,14 @@ header a:hover{
 
 #showcase p{
     font-size:25px;
-    color: red
+    color: #ffffff
 }
 
 /* Newsletter*/
 #newsletter{
     padding:15px;
-    color:red;
-    background:black;
+    color:#ffffff;
+    background:#3a632e;
 }
 
 #newsletter h1{
