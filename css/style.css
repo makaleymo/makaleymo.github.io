@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
-    <background-image="https://i.pinimg.com/originals/69/d6/ef/69d6ef46ec2179025277d39726b5186b.jpg">
+    background-color=black;
 }
 
 /* Global */
@@ -23,13 +23,13 @@ ul{
     border:none;
     padding-left:20px;
     padding-right:20px;
-    color:#ffffff;
+    color:white;
 }
 
 .dark{
     padding:15px;
-    background:#3a632e;
-    color:#ffffff;
+    background:red;
+    color:black;
     margin-top:10px;
     margin-bottom:10px;
 }
@@ -76,16 +76,16 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-    color:red;
+    color:black;
     font-weight: bold;
 }
 
 /* Showcase */
 #showcase{
     min-height:400px;
-    background:url('../img/check.jpg') no-repeat 0 -400px;
+    background:red no-repeat 0 -400px;
     text-align:center;
-    color:red;
+    color:black;
 }
 
 #showcase h1{
@@ -96,7 +96,7 @@ header a:hover{
 
 #showcase p{
     font-size:25px;
-    color: red
+    color: black
 }
 
 /* Newsletter*/
@@ -129,12 +129,12 @@ header a:hover{
 #boxes .box{
     float:left;
     text-align:center;
-    width:30%;
+    width:200px;
     padding:10px;
 }
 
 #boxes .box img{
-    width:90px;
+    width:200px;
 }
 
 /* Sidebar */
@@ -154,16 +154,16 @@ article#maincol{
 ul#howtohelp li{
     list-style: none;
     padding:20px;
-    border: #cccccc solid 1px;
+    border: red solid 1px;
     margin-bottom:5px;
-    background:#e0cb57;
+    background:red;
 }
 
 footer{
     padding:20px;
     margin-top:20px;
-    color:#ffffff;
-    background-color:#ffbd30;
+    color:red;
+    background-color:black;
     text-align:center;
 }
 
