@@ -88,7 +88,7 @@ header a:hover{
     color:black;
 }
 
-#showcase {
+#showcase h1{
     margin-top:40px;
     font-size:55px;
     margin-bottom:10px;
@@ -106,7 +106,7 @@ header a:hover{
     background:black;
 }
 
-#newsletter {
+#newsletter h1{
     float:left;
 }
 
@@ -129,29 +129,29 @@ header a:hover{
 #boxes .box{
     float:left;
     text-align:center;
-    width:300px;
+    width:30%;
     padding:10px;
 }
 
 #boxes .box img{
-    width:300px;
+    width:90px;
 }
 
 /* Sidebar */
-#sidebar{
+aside#sidebar{
     float:right;
     width:30%;
     margin-top:10px;
 }
 
 /* Main-col */
-#maincol{
+article#maincol{
     float:left;
     width:65%;
 }
 
 /* How To Help */
-#howtohelp li{
+ul#howtohelp li{
     list-style: none;
     padding:20px;
     border: red solid 1px;
@@ -172,11 +172,11 @@ footer{
     header #branding,
     header nav,
     header nav li,
-    #newsletter,
+    #newsletter h1,
     #newsletter form,
     #boxes .box,
-    #main-col,
-    #sidebar{
+    article#main-col,
+    article#sidebar{
         float: none;
         text-align:center;
         width:100%;
@@ -186,7 +186,7 @@ footer{
         padding-bottom:20px;
     }
 
-    #showcase{
+    #showcase h1{
         margin-top:40px;
     }
 
